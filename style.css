@@ -1,0 +1,189 @@
+/*
+---HTML
+*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #222831;
+}
+
+ion-icon {
+  font-size: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #00797e;
+}
+
+/*
+---Headings
+*/
+h2::after,
+h3::after,
+h4::after {
+  display: block;
+  height: 2px;
+  background-color: #00797e;
+  content: " ";
+  margin: 25px auto 25px auto;
+}
+h2::after {
+  width: 100px;
+}
+h3::after,
+h4::after {
+  width: 50px;
+}
+h5 {
+  font-size: 24px;
+}
+/*
+---Buttons
+*/
+.btn-1 {
+  background: #393e46;
+  color: white;
+  margin-right: 15px;
+}
+
+.btn-1:hover {
+  background: #00797e;
+  color: white;
+}
+
+.btn-2 {
+  color: #eeeeee;
+  background: #00adb5;
+}
+
+.btn-2:hover {
+  background: #00797e;
+  color: #eeeeee;
+}
+/*
+---Navigation
+*/
+.navbar-nav li {
+  padding-left: 10px;
+  color: #00adb5;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+/*
+---Header
+*/
+header {
+  font-family: 'Open Sans', sans-serif;
+  color: #393e46;
+}
+.header-jumbotron {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-jumbotron .jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(images/notes.jpeg);
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+  color: white;
+  margin: 0 auto;
+}
+
+.header-text {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  margin: 1%;
+  padding: 1%;
+}
+
+.header-text h1 {
+  text-transform: uppercase;
+}
+
+.category-title {
+    text-align: right;
+}
+.category-title,
+.notes-title {
+  margin-top: 5%;
+  margin-right: 10%;
+}
+
+.category-title::after,
+.notes-title::after {
+  display: block;
+  height: 2px;
+  background-color: #00797e;
+  content: " ";
+}
+
+.category-title::after {
+  width: 90%;
+  margin: 15px 0px 20px auto;
+}
+
+.notes-title::after {
+  width: 100%;
+  margin: 15px auto 15px auto;
+}
+/*
+---About Us
+*/
+.about-us-text {
+  font-size: 20px;
+  margin: 10px auto;
+  //text-align: left;
+}
+/*
+---Categories/Courses List
+*/
+.categories,
+.about-us,
+.form-home,
+.courses-list {
+  margin-top: 40px;
+}
+
+.categories img,
+.courses-list img {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  -webkit-transform: scale(.9);
+  transform: scale(.9);
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+}
+
+.categories img:hover,
+.courses-list img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.categories h4,
+.about-us {
+    text-align: center;
+}
+
+.categories a,
+.courses-list a {
+  text-decoration: none;
+  color: inherit;
+}
+/*
+---Form
+*/
+.form-entry {
+  margin: 10px auto;
+}
+.form-main button {
+  margin: 10px auto;
+}

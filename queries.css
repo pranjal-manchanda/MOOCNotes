@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+  .header-jumbotron {
+    width: 90%;
+  }
+  .header-text {
+    left: 5%;
+  }
+
+  @media (max-width: 320px) {
+    .header-text h1 {
+      font-size: 26px;
+    }
+
+
+  }
+
+}

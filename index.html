@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8"
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <!-- jQuery library -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <!-- Popper JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="stylesheet" type="text/css" href="queries.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:300" rel="stylesheet">
+
+      <title>MOOC Notes</title>
+    </head>
+
+    <body>
+      <header>
+        <!--NAVIGATION-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">MOOC Notes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/business.html">Business</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/compsci.html">CS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pages/personaldev.html">Personal Development</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!--Header-->
+        <div class="header-jumbotron">
+          <div class="jumbotron">
+            <div class="row justify-content-center header-text">
+              <div class="col-md-8 col-xs-8 align-items-center justify-content-center">
+                <h1>Supplement your learning</h1>
+                <p>Review notes from some of the most popular MOOC's</p>
+                <a class="btn btn-1" href="#aboutUs" role="button">Learn More</a>
+                <a class="btn btn-2" href="#getStarted" role="button">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--About Us -->
+      <section class="about-us">
+        <div class="container" id="aboutUs">
+          <div class="row justify-content-center">
+            <h2>About Us</h2>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-sm-12">
+              <p class="about-us-text"><ion-icon name="alert"></ion-icon>Taking MOOCs is a great way to learn new things! But it is easy to forget what we have learned.</p>
+              <p class="about-us-text"><ion-icon name="bulb"></ion-icon>Research indicates that reviewing new knowledge is essential to integrating it into our long-term memories.</p>
+              <p class="about-us-text"><ion-icon name="close"></ion-icon>But going back through all the lectures can be tedious and confusing.</p>
+              <p class="about-us-text"><ion-icon name="checkmark"></ion-icon>MOOC Notes aims to provide a convenient interface where users can access open source notes from a variety of top MOOCS.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Categories-->
+      <section class="categories">
+        <div class="container" id="getStarted">
+          <div class="row justify-content-center">
+            <h2>Get Started</h2>
+          </div>
+          <div class="row justify-content-around">
+            <div class="col-md-4 col-sm-8">
+              <h4><a href="pages/business.html"><img src="images/business.jpg" alt="Image of business plan">Business</a></h4>
+            </div>
+            <div class="col-md-4 col-sm-8">
+              <h4><a href="pages/compsci.html"><img src="images/code.jpg" alt="Image of code">Computer Science</a></h4>
+            </div>
+            <div class="col-md-4 col-sm-8">
+              <h4><a href="pages/personaldev.html"><img src="images/personal.jpg" alt="Image of 2 people on a beach">Personal Development</a></h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Form-->
+      <section class="form-home">
+        <div class="container" id="getMore">
+          <div class="row justify-content-center">
+            <h2>Request More Notes</h2>
+          </div>
+          <div class="row justify-content-center">
+            <p>We will try our best to keep the website updated with the latest open source notes.<br>
+            However, we welcome any addiitonal requests or inputs you may have!</p>
+          </div>
+          <div class="container form-main">
+            <form method="post" action="#">
+              <div class="row">
+                <div class="col-md-6 col-sm-9 form-entry">
+                  <input type="text" class="form-control" placeholder="Name">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-9 form-entry">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-sm-9 form-entry">
+                  <input type="text" class="form-control" placeholder="Comments">
+                </div>
+              </div>
+              <div class="row">
+                <button type="submit" class="btn btn-2">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+    </body>
+</html>
